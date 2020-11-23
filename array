@@ -1,0 +1,10 @@
+//array
+int main(int argc, char *argv[]) {
+float ints[10],sum,average;
+int i;
+for(i=0;i<=9;i++){scanf("%f",&ints[i]);sum+=ints[i];
+}
+ average=sum/10;
+ for(i=0;i<=9;i++){if(ints[i]>average)printf("%.1f\n",ints[i]);}
+	return 0;
+}
